@@ -17,6 +17,6 @@ git add -A
 git commit -m 'deploy'
 
 # если вы публикуете по адресу https://<USERNAME>.github.io/<REPO>
-git push -f ilyakut@gmail.com:iliakut/Monty_Problem.git master:master
+git push -f ilyakut@gmail.com:iliakut/Monty_Problem.git origin:origin
 
 cd -
