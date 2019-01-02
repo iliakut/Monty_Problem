@@ -1,6 +1,4 @@
 // vue.config.js
 module.exports = {
-  baseUrl: process.env.NODE_ENV === 'production'
-    ? '/Monty_Problem/'
-    : '/'
-}
+  baseUrl: "/my-first-project/"
+} 
