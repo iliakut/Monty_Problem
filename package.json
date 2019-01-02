@@ -4,12 +4,10 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-servicserve -s diste build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "docker": "^1.0.0",
-    "express": "^4.16.4",
     "heroku": "^7.19.4",
     "serve": "^10.1.1",
     "vue": "^2.5.17",
