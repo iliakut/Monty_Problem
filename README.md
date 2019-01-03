@@ -19,3 +19,7 @@ yarn run build
 ```
 yarn run lint
 ```
+### Demo
+```
+https://iliakut.github.io/Monty_Problem/#/
+```
