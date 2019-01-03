@@ -143,7 +143,7 @@ span {
 }
 .form-radio:checked::before {
   position: absolute;
-  font: calc(0.7vw + 35%) "Open Sans", sans-serif;
+  font: calc(0.4vw + 45%) "Open Sans", sans-serif;
   left: 37%;
   top: 20%;
   content: "\02143";
