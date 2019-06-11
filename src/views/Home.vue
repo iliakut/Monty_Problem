@@ -61,7 +61,6 @@ export default {
     document.body.classList.add("body-white");
   },
   mounted() {
-    console.log(this.picked);
     if (!localStorage.getItem("colorTheme")) {
       this.picked = "white";
     } else this.picked = localStorage.getItem("colorTheme");
