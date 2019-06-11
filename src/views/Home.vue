@@ -54,10 +54,14 @@ export default {
   watch: {
     picked: function() {
       this.toggleBodyStyle();
+      localStorage.setItem('colorTheme', this.picked);
     }
   },
   beforeCreate() {
     document.body.classList.add("body-white");
+  },
+  mounted() {
+    this.picked = localStorage.getItem("colorTheme");
   }
 };
 </script>
